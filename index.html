@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>ABC Bank</title>
+</head>
+<body>
+    <div class="login">
+        <h1 class="text-center">Welcome to ABC Bank</h1>
+        <div class="submitted-area">
+            <h3>Login</h3>
+            <form action="#">
+                <input class ="form-control" type="text" placeholder="Enter your email" name="email"><br>
+                <input class ="form-control" type="password" placeholder="Enter your password" name="password"><br>
+                <button id="login" class="btn btn-success">Enter</button>
+            </form>
+        </div>
+    </div>
+    <script>
+        var loginBtn = document.getElementById("login");
+        loginBtn.addEventListener("click", function(){
+
+            console.log('Login button clicked');
+        });
+    </script>
+</body>
+</html>
